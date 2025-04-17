@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles/stylesheet.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treaty 1 Explanation page and quiz</title>
+  </head>
+
+  <style>
+    /* Style for embedded videos */
+    iframe {
+      width: 800px;
+      height: 300px;
+    }
+
+    /* Style for the title of the quiz form */
+    h1 {
+      color: 3b6b4c; /* color needs hex code */
+    }
+
+    /* Style for form titles */
+    .form-title {
+      font-size: 1.8em;
+      font-weight: bold;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+  </style>
+
+  <body>
+    <!-- Navigation Bar with links to other pages -->
+    <nav class="navbar">
+      <ul>
+        <!-- Home page link -->
+        <li><a href="index.html">Home</a></li>
+        <!-- Page 1 for Treaty One explanation -->
+        <li><a href="Explanation1.html">Treaty One Explanation 1</a></li>
+        <!-- Page 2 for additional Treaty One explanation -->
+        <li><a href="Explanation2.html">Treaty One Explanation 2</a></li>
+        <!-- Logo of the Indigenous Flag -->
+        <img
+          src="images/indegnious logo.webp"
+          alt="Flag of Canada"
+          width="50px"
+          height="50px" />
+      </ul>
+    </nav>
+
+    <!-- Page title introducing the videos and quiz -->
+    <h1>
+      Now that you've learned about treaty one Here are a few videos to educate
+      you further on the topic along with a fun quiz
+    </h1>
+
+    <!-- Embedding the first video about Canada's Treaty No.1 -->
+    <iframe
+      src="https://www.youtube.com/embed/8O717cPRcf4"
+      title="Canada&#39;s Treaty No.1"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen></iframe>
+    <a href="https://www.youtube.com/embed/8O717cPRcf4"
+      >Here is the original Link to what Treaty 1 is in even more depth</a
+    >
+
+    <!-- Embedding the second video about Treaty 1's creation -->
+    <iframe
+      src="https://www.youtube.com/embed/8uB83G7xZgU"
+      title="Episode 1 – Treaty Promises: Treaty making"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen></iframe>
+    <a href="https://www.youtube.com/embed/8uB83G7xZgU"
+      >Here is the original Link to Video that explains the Making Treaty 1</a
+    >
+
+    <!-- Embedding the third video about Treaty 1's 150th Anniversary -->
+    <iframe
+      src="https://www.youtube.com/embed/ZY53Ijkrbxs"
+      title="Treaty No. 1 150th Anniversary"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen></iframe>
+    <a href="https://www.youtube.com/embed/ZY53Ijkrbxs"
+      >Here is the original link for the video talking about Treaty 1's 150th
+      Anniversary</a
+    >
+    <br />
+    <br />
+    <br />
+
+    <!-- Quiz Form Start -->
+    <h2 class="form-title">Treaty 1 Quiz</h2>
+    <form
+      name="Quiz 1"
+      action="https://en.wikipedia.org/wiki/Treaty_1"
+      id="travel-suggestion-1"
+      method="post">
+      <!-- Dropdown question asking when Treaty 1 was signed -->
+      <label for="main-character">When was Treaty 1 signed?</label><br />
+      <select name="main-character" id="main-character">
+        <option value="1884">1884</option>
+        <option value="1886">1886</option>
+        <option value="1882">1882</option>
+        <option value="1871">1871</option>
+      </select>
+
+      <!-- Checkboxes for selecting the tribes that signed Treaty 1 -->
+      <fieldset>
+        <legend>Select the tribes that signed Treaty 1</legend>
+
+        <input
+          type="checkbox"
+          id="Anishinaabe"
+          name="tribe"
+          value="Anishinaabe" />
+        <label for="Anishinaabe">Anishinaabe</label><br />
+
+        <input type="checkbox" id="Cree" name="tribe" value="Cree" />
+        <label for="Cree">Cree</label><br />
+
+        <input type="checkbox" id="Metis" name="tribe" value="Métis" />
+        <label for="Metis">Métis</label><br />
+      </fieldset>
+
+      <!-- Radio buttons for selecting where Treaty 1 was signed -->
+      <fieldset>
+        <legend>Where was it signed?</legend>
+
+        <input
+          type="radio"
+          id="FortCorn-radio"
+          name="signing-place"
+          value="Fort Cornwall" />
+        <label for="FortCorn-radio">Fort Cornwall</label><br />
+
+        <input
+          type="radio"
+          id="FortGarry-radio"
+          name="signing-place"
+          value="Fort Garry" />
+        <label for="FortGarry-radio">Fort Garry</label><br />
+
+        <input
+          type="radio"
+          id="FortSmith-radio"
+          name="signing-place"
+          value="Fort Smith" />
+        <label for="FortSmith-radio">Fort Smith</label><br />
+      </fieldset>
+
+      <!-- Submit button for the quiz -->
+      <fieldset>
+        <input type="submit" value="Submit Quiz" />
+      </fieldset>
+    </form>
+
+    <!-- Footer with page research credit -->
+    <div class="footer">
+      <p>This whole Page's research was all founded by Ishaan ©Ishaan 2025</p>
+    </div>
+  </body>
+</html>
